@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 33% 4%;
+    --foreground: 210 40% 96%;
+    --card: 240 25% 7%;
+    --card-foreground: 210 40% 96%;
+    --popover: 240 25% 7%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 193 100% 50%;
+    --primary-foreground: 240 33% 4%;
+    --secondary: 240 20% 15%;
+    --secondary-foreground: 210 40% 96%;
+    --muted: 240 20% 15%;
+    --muted-foreground: 215 20% 55%;
+    --accent: 240 20% 15%;
+    --accent-foreground: 210 40% 96%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 240 15% 15%;
+    --input: 240 15% 15%;
+    --ring: 193 100% 50%;
+    --radius: 0.5rem;
+    --sidebar-background: 240 25% 7%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-primary: 193 100% 50%;
+    --sidebar-primary-foreground: 240 33% 4%;
+    --sidebar-accent: 240 20% 15%;
+    --sidebar-accent-foreground: 210 40% 96%;
+    --sidebar-border: 240 15% 15%;
+    --sidebar-ring: 193 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-obsidian text-frost antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-oxygen-blue to-electric-cyan bg-clip-text text-transparent;
+  }
+  .bg-gradient-dark {
+    background: linear-gradient(180deg, #0A0A0F 0%, #12121A 100%);
+  }
+  .bg-gradient-radial {
+    background: radial-gradient(ellipse at center, rgba(0, 212, 255, 0.05) 0%, transparent 70%);
+  }
+}
