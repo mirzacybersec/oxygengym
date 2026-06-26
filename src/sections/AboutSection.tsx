@@ -115,7 +115,7 @@ export default function AboutSection() {
             Where Dedication Meets Results
           </h2>
           <p className="reveal text-frost/60 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            Located in the heart of Shah Faisal Town, Oxygen Gym is Karachi&apos;s
+            Located in the heart of Gulshan-e-Iqbal Block 1, Oxygen Gym is Karachi&apos;s
             destination for serious fitness enthusiasts. We believe that fitness
             isn&apos;t a luxury — it&apos;s a necessity. That&apos;s why we keep our doors
             open 24/7, giving you the freedom to train on your schedule, not ours.
@@ -126,7 +126,7 @@ export default function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-20">
           <div ref={imageRef} className="relative rounded-xl overflow-hidden group">
             <img
-              src="/about-gym.jpg"
+              src="/oxygengym/public/about-gym.jpg"
               alt="Oxygen Gym Interior"
               className="w-full h-[300px] sm:h-[400px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
