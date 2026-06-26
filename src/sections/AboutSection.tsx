@@ -126,7 +126,7 @@ export default function AboutSection() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-20">
           <div ref={imageRef} className="relative rounded-xl overflow-hidden group">
             <img
-              src="/oxygengym/public/about-gym.jpg"
+              src="/oxygengym/about-gym.jpg"
               alt="Oxygen Gym Interior"
               className="w-full h-[300px] sm:h-[400px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
