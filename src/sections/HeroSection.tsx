@@ -98,7 +98,7 @@ export default function HeroSection() {
 
         <p
           ref={subtitleRef}
-          className="text-frost/65 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
+          className="text-frost/70 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           State-of-the-art equipment, expert trainers, and round-the-clock access.
           Your transformation starts at Oxygen Gym in Gulshan-e-Iqbal Block 1.
@@ -121,7 +121,7 @@ export default function HeroSection() {
           </button>
 
           <a
-            href="https://wa.me/923162128803"
+            href="https://wa.me/923162128803?text=Hello!%20I%20am%20interested%20in%20your%20gym%20membership%20plans."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-whatsapp text-white px-8 py-4 rounded-lg font-semibold text-sm flex items-center gap-2 hover:brightness-110 hover:shadow-glow-green transition-all duration-250 w-full sm:w-auto justify-center"
