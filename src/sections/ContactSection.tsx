@@ -29,7 +29,7 @@ const contactInfo = [
     icon: MessageCircle,
     label: "WhatsApp",
     value: "+92 316 2128803",
-    href: "https://wa.me/923162128803",
+    href: "https://wa.me/923162128803?text=Hello!%20I%20am%20interested%20in%20your%20gym%20membership%20plans.",
   },
   {
     icon: Clock,
