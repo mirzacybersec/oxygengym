@@ -51,7 +51,7 @@ export default function Footer() {
                 <Instagram size={18} />
               </a>
               <a
-                href="https://wa.me/923162128803"
+                href="https://wa.me/923162128803?text=Hello!%20I%20am%20interested%20in%20your%20gym%20membership%20plans."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-surface border border-steel rounded-lg flex items-center justify-center text-frost/50 hover:text-whatsapp hover:border-whatsapp/30 transition-all"
@@ -128,7 +128,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/923162128803"
+                  href="https://wa.me/923162128803?text=Hello!%20I%20am%20interested%20in%20your%20gym%20membership%20plans."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-frost/50 text-sm hover:text-whatsapp transition-colors"
