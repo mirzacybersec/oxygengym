@@ -199,7 +199,7 @@ export default function PricingSection() {
 
               {/* CTA */}
               <a
-                href="https://wa.me/923162128803?text=Hi!%20I'm%20interested%20in%20the%20${plan.name}%20membership%20plan."
+                href={`https://wa.me/923162128803?text=Hi!%20I'm%20interested%20in%20the%20${plan.name}%20membership%20plan.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`w-full py-3 rounded-lg font-semibold text-sm flex items-center justify-center gap-2 transition-all duration-250 ${
@@ -207,7 +207,7 @@ export default function PricingSection() {
                     ? "bg-oxygen-blue text-obsidian hover:bg-[#33DDFF] hover:shadow-glow"
                     : "border border-oxygen-blue/50 text-oxygen-blue hover:bg-oxygen-blue hover:text-obsidian"
                 }`}
-              >
+                >
                 JOIN NOW
                 <ArrowRight size={16} />
               </a>
