@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="/oxygen-logo.png"
+                src="/oxygengym/public/oxygen-logo.png"
                 alt="Oxygen Gym"
                 className="h-12 w-12 object-contain"
               />
@@ -39,7 +39,7 @@ export default function Footer() {
             </div>
             <p className="text-frost/50 text-sm leading-relaxed mb-6">
               Breathe Life Into Your Fitness. Karachi&apos;s premier 24/7 fitness
-              destination in Shah Faisal Town.
+              destination in Gulshan-e-Iqbal Block 1.
             </p>
             <div className="flex items-center gap-3">
               <a
@@ -115,7 +115,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-frost/50 text-sm">
                 <MapPin size={16} className="text-oxygen-blue flex-shrink-0 mt-0.5" />
-                1st Street, 9, Shah Faisal Town, Karachi
+                GPC 1, Block 1 Gulshan-e-Iqbal, Karachi
               </li>
               <li>
                 <a
