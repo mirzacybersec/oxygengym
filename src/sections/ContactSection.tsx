@@ -16,8 +16,8 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Address",
-    value: "1st Street, 9, Shah Faisal Town, Karachi",
-    href: "https://www.google.com/maps/search/?q=Shah+Faisal+Town+1st+Street+9+Karachi",
+    value: "GPC 1, Block 1 Gulshan-e-Iqbal, Karachi",
+    href: "https://maps.app.goo.gl/rSfqfqgintLVwHY97",
   },
   {
     icon: Phone,
@@ -278,7 +278,7 @@ export default function ContactSection() {
             CHAT ON WHATSAPP
           </a>
           <a
-            href="https://www.google.com/maps/search/?q=Shah+Faisal+Town+1st+Street+9+Karachi"
+            href="https://maps.app.goo.gl/rSfqfqgintLVwHY97"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-surface border border-steel text-white px-8 py-4 rounded-lg font-semibold text-sm hover:border-oxygen-blue/50 hover:text-oxygen-blue transition-all"
