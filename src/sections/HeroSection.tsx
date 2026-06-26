@@ -65,7 +65,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="oxygengym/public/hero-bg.jpg"
+          src="/oxygengym/hero-bg.jpg"
           alt="Oxygen Gym Interior"
           className="w-full h-full object-cover"
         />
@@ -98,7 +98,7 @@ export default function HeroSection() {
 
         <p
           ref={subtitleRef}
-          className="text-frost/70 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
+          className="text-frost/65 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           State-of-the-art equipment, expert trainers, and round-the-clock access.
           Your transformation starts at Oxygen Gym in Gulshan-e-Iqbal Block 1.
