@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const plans = [
   {
     name: "Monthly",
-    price: "3,500",
+    price: "6,000",
     period: "/month",
     badge: null,
     highlighted: false,
@@ -21,7 +21,7 @@ const plans = [
   },
   {
     name: "Quarterly",
-    price: "9,000",
+    price: "15,000",
     period: "/3 months",
     badge: "MOST POPULAR",
     highlighted: true,
@@ -34,7 +34,7 @@ const plans = [
   },
   {
     name: "Yearly",
-    price: "30,000",
+    price: "55,000",
     period: "/year",
     badge: "BEST VALUE",
     highlighted: false,
