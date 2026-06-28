@@ -61,7 +61,7 @@ export default function Navbar() {
               className="flex items-center gap-3"
             >
               <img
-                src="/oxygengym/oxygen-logo.png"
+                src="/public/oxygen-logo.png"
                 alt="Oxygen Gym"
                 className="h-10 w-10 object-contain"
               />
