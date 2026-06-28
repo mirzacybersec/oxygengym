@@ -65,7 +65,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/oxygengym/hero-bg.jpg"
+          src="/hero-bg.jpg"
           alt="Oxygen Gym Interior"
           className="w-full h-full object-cover"
         />
