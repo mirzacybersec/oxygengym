@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="/oxygengym/oxygen-logo.png"
+                src="/oxygen-logo.png"
                 alt="Oxygen Gym"
                 className="h-12 w-12 object-contain"
               />
