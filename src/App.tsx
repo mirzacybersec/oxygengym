@@ -60,7 +60,7 @@ function App() {
       <div className="fixed inset-0 z-[300] bg-obsidian flex flex-col items-center justify-center">
         <div className="w-24 h-24 mb-8 animate-pulse">
           <img
-            src="/oxygengym/oxygen-logo.png"
+            src="/oxygen-logo.png"
             alt="Oxygen Gym"
             className="w-full h-full object-contain"
           />
