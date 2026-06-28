@@ -11,28 +11,28 @@ const services = [
     title: "Personal Training",
     description:
       "One-on-one sessions with certified trainers who design personalized workout plans tailored to your goals.",
-    image: "/public/service-training.jpg",
+    image: "/service-training.jpg",
   },
   {
     icon: Weight,
     title: "Strength Training",
     description:
       "Comprehensive free weights and machine-based strength programs to build muscle and increase power.",
-    image: "/public/service-strength.jpg",
+    image: "/service-strength.jpg",
   },
   {
     icon: HeartPulse,
     title: "Cardio Zone",
     description:
       "Treadmills, ellipticals, stationary bikes, and rowing machines for heart-healthy endurance training.",
-    image: "/public/service-cardio.jpg",
+    image: "/service-cardio.jpg",
   },
   {
     icon: Zap,
     title: "Functional Fitness",
     description:
       "Kettlebells, battle ropes, TRX, and open floor space for dynamic, full-body workouts.",
-    image: "/public/service-functional.jpg",
+    image: "/service-functional.jpg",
   },
 ];
 
